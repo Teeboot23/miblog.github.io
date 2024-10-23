@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header .highlight, header .current a {
+    color: #e8491d;
+    font-weight: bold;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    display: inline;
+    padding: 0 20px;
+}
+#showcase {
+    min-height: 200px;
+    background: #35424a;
+    text-align: center;
+    color: #ffffff;
+}
+#showcase h1 {
+    margin-top: 50px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+.project-card {
+    background: #f4f4f4;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.project-card h3 {
+    color: #35424a;
+    margin-top: 0;
+}
+.project-card .tech {
+    color: #e8491d;
+    font-weight: bold;
+}
+.project-card a {
+    display: inline-block;
+    background: #35424a;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+@media(max-width: 768px) {
+    header li, #showcase h1 {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+}

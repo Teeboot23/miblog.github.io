@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Herrera - Ingeniero, Programador</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="imagenes/vitamina-c.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><span class="highlight">Fernando Herrera</span> Joven Programador</h1>
+            <nav>
+                <ul>
+                    <li class="current"><a href="#showcase">Inicio</a></li>
+                    <li><a href="Experiencias.html">Experiencias</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="contactame.html">Contactame</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h3>Proximo Ingeniero de Sistemas</h3>
+            <p>Transformo mi camino paso a paso con nuevos lenguajes.</p>
+            <p>Esta es una pequeña demostracion de mi talento:</p>
+            <video width="640" height="360" controls>
+                <source src="video/2024-05-28 19-19-03.mkv" type="video/mp4">
+              </video>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Sobre Mi</h2>
+            <p>Soy un joven Programador, amante del Gym, con grandes ambiciones para realizar nuevos programas y aprender nuevos 
+            lenguajes, </p>
+            <p>Actualmente me encuentro estudiante la carrera ingeniera de sistemas con un gran profesor llamado jacobo en la
+                universidad Evangelica.
+            </p>
+            <p>En el Cuarto Ciclo de la carrera, seguio aprendiendo mucho sobre las diferentes ramas, actualmente no se aun en cual 
+                especializarme.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Lenguajes Manejados</h2>
+            <ul>
+                <li>JavaScript</li>
+                <li>C#</li>
+                <li>Kotlin</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SQL</li>
+                <li>Java</li>
+                <li>php</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="cta">
+        <div class="container">
+            <h2>Comencemos a trabajar juntos en un Proyecto</h2>
+            <p>Comencemos nuevos proyectos en un nuevo nivel de lenguaje. Platiquemos de un nuevo proyecto</p>
+            <a href="contactame.html" class="button">Contactame</a>
+        </div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.body.classList.add('fade-in');
+        });
+
+        window.addEventListener('beforeunload', function() {
+            document.body.classList.add('fade-out');
+        });
+    </script>
+</body>
+</body>
+</html>

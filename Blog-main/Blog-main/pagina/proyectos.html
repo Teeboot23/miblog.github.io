@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Herrera - Proyectos</title>
+    <link rel="stylesheet" href="styles/proyectosstyle.css">
+    <link rel="icon" href="imagenes/vitamina-c.png">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><span class="highlight">Fernando Herrera</span> Joven Programador</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Experiencias.html">Experiencias</a></li>
+                    <li class="current"><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="contactame.html">Contactame</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Mis Proyectos</h1>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Consumidor de API</h3>
+                    <p class="tech">React</p>
+                    <p> En este pdf logre conseguir los diferentes controladores conectado con mysql.</p>
+                    <a href="pdf/Fernando Herrera OVA.pdf">Vista Proyecto</a>
+                </div>
+                <div class="project-card">
+                    <h3>Conexion con SQL en Winform</h3>
+                    <p class="tech">C#, SQL Server</p>
+                    <p>En este pdf logre conseguir la conexion del SQL para poder crear tablas y modificarlas.</p>
+                    <a href="pdf/Fernando Javier Herrera Mayorga4.pdf">Vista Proyecto</a>
+                </div>
+                <div class="project-card">
+                    <h3>Weather Forecast Dashboard</h3>
+                    <p class="tech">React, Redux, OpenWeatherMap API</p>
+                    <p>An interactive weather dashboard providing detailed forecasts and historical weather data.</p>
+                    <a href="pdf/Fernando Javier herrera Mayorga(2).pdf">Vista Proyecto</a>
+                </div>
+                <div class="project-card">
+                    <h3>Social Media Analytics Tool</h3>
+                    <p class="tech">Python, Django, D3.js</p>
+                    <p>A comprehensive analytics tool for tracking and visualizing social media engagement and trends.</p>
+                    <a href="pdf/Fernando Javier Herrera Mayorga.pdf">Vista Proyecto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.body.classList.add('fade-in');
+        });
+
+        window.addEventListener('beforeunload', function() {
+            document.body.classList.add('fade-out');
+        });
+    </script>
+</body>

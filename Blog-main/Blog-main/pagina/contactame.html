@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Herrera - Contacto</title>
+    <link rel="stylesheet" href="styles/contacamestyle.css">
+    <link rel="icon" href="imagenes/vitamina-c.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><span class="highlight">Fernando Herrera</span> Joven Programador</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Experiencias.html"> Experiencias</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li class="current"><a href="contactame.html">Contactame</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Contactame</h1>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div id="contact-form">
+                <h3>Consige comunicarte conmigo</h3>
+                <form action="https://formsubmit.co/herreraf173@gmail.com" method="post">
+                    <div>
+                        <label for="name">Nombre</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="subject">Asunto</label>
+                        <input type="text" name="subject" required>
+                    </div>
+                    <div>
+                        <label for="message">Mensaje</label>
+                        <textarea name="message" required></textarea>
+                    </div>
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
+            <div id="contact-info">
+                <h3>informacion sobre mi</h3>
+                <p>Email: herreraf173@gmail.com</p>
+                <p>Telefono: +503 7899-5771</p>
+                <p>Localicaciòn: San Salvador, San Salvador</p>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.body.classList.add('fade-in');
+        });
+
+        window.addEventListener('beforeunload', function() {
+            document.body.classList.add('fade-out');
+        });
+    </script>
+</body>
+</html>

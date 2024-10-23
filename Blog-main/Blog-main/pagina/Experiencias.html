@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernando Herrera - Experiencias</title>
+    <link rel="stylesheet" href="styles/sobremistyle.css">
+    <link rel="icon" href="imagenes/vitamina-c.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><span class="highlight">Fernando Herrera</span> Joven Programador</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="current"><a href="Experiencias.html">Experiencias</a></li>
+                    <li><a href="proyectos.html">Proyectos</a></li>
+                    <li><a href="contactame.html">Contactame</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="showcase">
+        <div class="container">
+            <h1>Experiencias Universitarias</h1>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <div class="experience-item">
+                <h3>Practicante Programador</h3>
+                <p class="company">Universidad Evangelica.</p>
+                <p class="date">21 de octubre- 2024</p>
+                <ul>
+                    <li>Actualmente me encuentro manejador de HTML5 y css</li>
+                    <li>Creando varios programas como calculadoras, paginas, o consumidoras de API</li>
+                    <li>Conectandolo con Visual Studio, y SQL Server </li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Practicante de SQL Server</h3>
+                <p class="company">Universidad Evangelica</p>
+                <p class="date">2022 - Actualmente</p>
+                <ul>
+                    <li>Puedo manejar las tablas y a las crearlas con un conociemto basico</li>
+                    <li>A su vez se aplicar logica en ellas tanto unir las tablas y creando logicas sobre su tablas </li>
+                    <li>Puedo modificar tambien las tablas con su informacion sin necesidad de tirar drop</li>
+                </ul>
+            </div>
+            <div class="experience-item">
+                <h3>Practiacnte de .NET</h3>
+                <p class="company">Universidad Evangelica</p>
+                <p class="date">2022 - Actualmente</p>
+                <ul>
+                    <li>Puedo crear logicas en C# tanto como para paginas web, con inicio de session</li>
+                    <li>Tamblien el aplicar las API con sus respectivos consumidores CREATE,DELETE,etc.</li>
+                    <li>Tambien puedo interacturar con winform conectandolo con sql y logrando modificar las tablas</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.body.classList.add('fade-in');
+        });
+
+        window.addEventListener('beforeunload', function() {
+            document.body.classList.add('fade-out');
+        });
+    </script>
+</body>
+</html>
